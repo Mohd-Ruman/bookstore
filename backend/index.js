@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Middleware for CORS Policy 
 // Option 1 : Allow all Origins with default of CORS(*)
-// app.use(cors());
+app.use(cors());
 
 // Option 2 : Allow specific custom origins for cors
 // app.use(
